@@ -1,0 +1,3213 @@
+{
+  "sources": [
+    {
+      "file": "actblue_expanded_comparison_results_20261014.json",
+      "sha256": "80e09a12bd1fb12f4cb89b8a0727d2cba9d680690f47616133b957f6da0df4f0"
+    },
+    {
+      "file": "ossoff_fixed_pair_next_stage_20261014_results.json",
+      "sha256": "448a7a0d00927ac4daefda8bc7b9eb2a6db714e04900a0235d5e66d00459de06"
+    },
+    {
+      "file": "奥索夫_三州末日归因与逐日删除核验_20261014.md",
+      "sha256": "86ca53bc8a8569a91c5142faf07e8302c3d481c36a01f1eae8d11128251d7fdd"
+    }
+  ],
+  "raw_references": {
+    "all_positive/fixed_common20": {
+      "states": [
+        "FL",
+        "TX"
+      ],
+      "transactions": [
+        13719,
+        9449
+      ],
+      "proxy_keys": [
+        11317,
+        7684
+      ],
+      "repeat_keys": [
+        1774,
+        1206
+      ],
+      "repeat_pct": [
+        15.675532384907662,
+        15.694950546590318
+      ],
+      "repeat_gap_pp": 0.019418161682654977,
+      "js_bits": 0.0009592061355649198,
+      "amount_rank": 5,
+      "repeat_rank": 4,
+      "amount_at_or_below_reference": true,
+      "repeat_at_or_below_reference": true,
+      "joint_at_or_below_reference": true,
+      "reference_pair": true
+    },
+    "all_positive/fixed_common20_plus18_36": {
+      "states": [
+        "FL",
+        "TX"
+      ],
+      "transactions": [
+        13719,
+        9449
+      ],
+      "proxy_keys": [
+        11317,
+        7684
+      ],
+      "repeat_keys": [
+        1774,
+        1206
+      ],
+      "repeat_pct": [
+        15.675532384907662,
+        15.694950546590318
+      ],
+      "repeat_gap_pp": 0.019418161682654977,
+      "js_bits": 0.002818958600680977,
+      "amount_rank": 52,
+      "repeat_rank": 4,
+      "amount_at_or_below_reference": true,
+      "repeat_at_or_below_reference": true,
+      "joint_at_or_below_reference": true,
+      "reference_pair": true
+    },
+    "single_transaction_le200/fixed_common20": {
+      "states": [
+        "FL",
+        "TX"
+      ],
+      "transactions": [
+        13504,
+        9297
+      ],
+      "proxy_keys": [
+        11139,
+        7557
+      ],
+      "repeat_keys": [
+        1745,
+        1185
+      ],
+      "repeat_pct": [
+        15.665679145345184,
+        15.680825724493847
+      ],
+      "repeat_gap_pp": 0.015146579148661576,
+      "js_bits": 0.0009603371223759058,
+      "amount_rank": 7,
+      "repeat_rank": 4,
+      "amount_at_or_below_reference": true,
+      "repeat_at_or_below_reference": true,
+      "joint_at_or_below_reference": true,
+      "reference_pair": true
+    },
+    "single_transaction_le200/fixed_common20_plus18_36": {
+      "states": [
+        "FL",
+        "TX"
+      ],
+      "transactions": [
+        13504,
+        9297
+      ],
+      "proxy_keys": [
+        11139,
+        7557
+      ],
+      "repeat_keys": [
+        1745,
+        1185
+      ],
+      "repeat_pct": [
+        15.665679145345184,
+        15.680825724493847
+      ],
+      "repeat_gap_pp": 0.015146579148661576,
+      "js_bits": 0.002814179648435651,
+      "amount_rank": 59,
+      "repeat_rank": 4,
+      "amount_at_or_below_reference": true,
+      "repeat_at_or_below_reference": true,
+      "joint_at_or_below_reference": true,
+      "reference_pair": true
+    }
+  },
+  "raw_summaries": {
+    "all_positive/fixed_common20": {
+      "other_candidates/all_states": {
+        "pair_observations": 1316,
+        "candidate_months_with_pairs": 49,
+        "joint_count": 0,
+        "joint_hits": [],
+        "candidate_months_with_joint_hits": 0,
+        "amount_only_count": 10,
+        "repeat_only_count": 17
+      },
+      "other_candidates/excluding_candidate_home_state": {
+        "pair_observations": 1109,
+        "candidate_months_with_pairs": 30,
+        "joint_count": 0,
+        "joint_hits": [],
+        "candidate_months_with_joint_hits": 0,
+        "amount_only_count": 10,
+        "repeat_only_count": 14
+      },
+      "ossoff_other_months/all_states": {
+        "pair_observations": 610,
+        "candidate_months_with_pairs": 5,
+        "joint_count": 0,
+        "joint_hits": [],
+        "candidate_months_with_joint_hits": 0,
+        "amount_only_count": 14,
+        "repeat_only_count": 7
+      },
+      "ossoff_other_months/excluding_candidate_home_state": {
+        "pair_observations": 541,
+        "candidate_months_with_pairs": 5,
+        "joint_count": 0,
+        "joint_hits": [],
+        "candidate_months_with_joint_hits": 0,
+        "amount_only_count": 14,
+        "repeat_only_count": 7
+      },
+      "all_excluding_reference_pair/all_states": {
+        "pair_observations": 2115,
+        "candidate_months_with_pairs": 55,
+        "joint_count": 0,
+        "joint_hits": [],
+        "candidate_months_with_joint_hits": 0,
+        "amount_only_count": 28,
+        "repeat_only_count": 27
+      },
+      "all_excluding_reference_pair/excluding_candidate_home_state": {
+        "pair_observations": 1820,
+        "candidate_months_with_pairs": 36,
+        "joint_count": 0,
+        "joint_hits": [],
+        "candidate_months_with_joint_hits": 0,
+        "amount_only_count": 28,
+        "repeat_only_count": 24
+      }
+    },
+    "all_positive/fixed_common20_plus18_36": {
+      "other_candidates/all_states": {
+        "pair_observations": 1316,
+        "candidate_months_with_pairs": 49,
+        "joint_count": 7,
+        "joint_hits": [
+          {
+            "committee_id": "C00919084",
+            "candidate_name": "TALARICO, JAMES",
+            "month": "202603",
+            "states": [
+              "CO",
+              "VA"
+            ],
+            "transactions": [
+              4353,
+              3971
+            ],
+            "proxy_keys": [
+              3743,
+              3398
+            ],
+            "repeat_keys": [
+              468,
+              425
+            ],
+            "repeat_pct": [
+              12.503339567192091,
+              12.507357268981753
+            ],
+            "repeat_gap_pp": 0.004017701789660322,
+            "js_bits": 0.0016543988927888312,
+            "amount_rank": 8,
+            "repeat_rank": 2,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          },
+          {
+            "committee_id": "C00919084",
+            "candidate_name": "TALARICO, JAMES",
+            "month": "202603",
+            "states": [
+              "MD",
+              "WA"
+            ],
+            "transactions": [
+              3258,
+              6124
+            ],
+            "proxy_keys": [
+              2748,
+              5162
+            ],
+            "repeat_keys": [
+              388,
+              729
+            ],
+            "repeat_pct": [
+              14.119359534206696,
+              14.122433165439752
+            ],
+            "repeat_gap_pp": 0.003073631233055374,
+            "js_bits": 0.001705143465867917,
+            "amount_rank": 11,
+            "repeat_rank": 1,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          },
+          {
+            "committee_id": "C00919084",
+            "candidate_name": "TALARICO, JAMES",
+            "month": "202605",
+            "states": [
+              "GA",
+              "NJ"
+            ],
+            "transactions": [
+              3956,
+              5501
+            ],
+            "proxy_keys": [
+              3516,
+              4939
+            ],
+            "repeat_keys": [
+              313,
+              439
+            ],
+            "repeat_pct": [
+              8.902161547212742,
+              8.8884389552541
+            ],
+            "repeat_gap_pp": 0.01372259195864256,
+            "js_bits": 0.0024802484539866543,
+            "amount_rank": 66,
+            "repeat_rank": 2,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          },
+          {
+            "committee_id": "C00919084",
+            "candidate_name": "TALARICO, JAMES",
+            "month": "202607",
+            "states": [
+              "FL",
+              "MI"
+            ],
+            "transactions": [
+              9366,
+              4236
+            ],
+            "proxy_keys": [
+              7964,
+              3575
+            ],
+            "repeat_keys": [
+              1042,
+              468
+            ],
+            "repeat_pct": [
+              13.083877448518333,
+              13.090909090909092
+            ],
+            "repeat_gap_pp": 0.007031642390759041,
+            "js_bits": 0.0018273071843476188,
+            "amount_rank": 13,
+            "repeat_rank": 1,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          },
+          {
+            "committee_id": "C00902668",
+            "candidate_name": "EL-SAYED, ABDUL",
+            "month": "202607",
+            "states": [
+              "CA",
+              "NY"
+            ],
+            "transactions": [
+              13555,
+              7917
+            ],
+            "proxy_keys": [
+              9946,
+              5878
+            ],
+            "repeat_keys": [
+              1896,
+              1121
+            ],
+            "repeat_pct": [
+              19.062939875326766,
+              19.07111262334127
+            ],
+            "repeat_gap_pp": 0.008172748014506626,
+            "js_bits": 0.002051264391197862,
+            "amount_rank": 1,
+            "repeat_rank": 1,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          },
+          {
+            "committee_id": "C00919084",
+            "candidate_name": "TALARICO, JAMES",
+            "month": "202608",
+            "states": [
+              "CT",
+              "NC"
+            ],
+            "transactions": [
+              3607,
+              6701
+            ],
+            "proxy_keys": [
+              2950,
+              5550
+            ],
+            "repeat_keys": [
+              438,
+              825
+            ],
+            "repeat_pct": [
+              14.847457627118644,
+              14.864864864864865
+            ],
+            "repeat_gap_pp": 0.017407237746222548,
+            "js_bits": 0.002553619286508276,
+            "amount_rank": 61,
+            "repeat_rank": 4,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          },
+          {
+            "committee_id": "C00902668",
+            "candidate_name": "EL-SAYED, ABDUL",
+            "month": "202608",
+            "states": [
+              "NJ",
+              "NY"
+            ],
+            "transactions": [
+              4331,
+              11737
+            ],
+            "proxy_keys": [
+              3537,
+              9652
+            ],
+            "repeat_keys": [
+              492,
+              1341
+            ],
+            "repeat_pct": [
+              13.910093299406277,
+              13.893493576460838
+            ],
+            "repeat_gap_pp": 0.0165997229454401,
+            "js_bits": 0.002016903244644935,
+            "amount_rank": 6,
+            "repeat_rank": 1,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          }
+        ],
+        "candidate_months_with_joint_hits": 6,
+        "amount_only_count": 343,
+        "repeat_only_count": 17
+      },
+      "other_candidates/excluding_candidate_home_state": {
+        "pair_observations": 1109,
+        "candidate_months_with_pairs": 30,
+        "joint_count": 7,
+        "joint_hits": [
+          {
+            "committee_id": "C00919084",
+            "candidate_name": "TALARICO, JAMES",
+            "month": "202603",
+            "states": [
+              "CO",
+              "VA"
+            ],
+            "transactions": [
+              4353,
+              3971
+            ],
+            "proxy_keys": [
+              3743,
+              3398
+            ],
+            "repeat_keys": [
+              468,
+              425
+            ],
+            "repeat_pct": [
+              12.503339567192091,
+              12.507357268981753
+            ],
+            "repeat_gap_pp": 0.004017701789660322,
+            "js_bits": 0.0016543988927888312,
+            "amount_rank": 8,
+            "repeat_rank": 2,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          },
+          {
+            "committee_id": "C00919084",
+            "candidate_name": "TALARICO, JAMES",
+            "month": "202603",
+            "states": [
+              "MD",
+              "WA"
+            ],
+            "transactions": [
+              3258,
+              6124
+            ],
+            "proxy_keys": [
+              2748,
+              5162
+            ],
+            "repeat_keys": [
+              388,
+              729
+            ],
+            "repeat_pct": [
+              14.119359534206696,
+              14.122433165439752
+            ],
+            "repeat_gap_pp": 0.003073631233055374,
+            "js_bits": 0.001705143465867917,
+            "amount_rank": 11,
+            "repeat_rank": 1,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          },
+          {
+            "committee_id": "C00919084",
+            "candidate_name": "TALARICO, JAMES",
+            "month": "202605",
+            "states": [
+              "GA",
+              "NJ"
+            ],
+            "transactions": [
+              3956,
+              5501
+            ],
+            "proxy_keys": [
+              3516,
+              4939
+            ],
+            "repeat_keys": [
+              313,
+              439
+            ],
+            "repeat_pct": [
+              8.902161547212742,
+              8.8884389552541
+            ],
+            "repeat_gap_pp": 0.01372259195864256,
+            "js_bits": 0.0024802484539866543,
+            "amount_rank": 66,
+            "repeat_rank": 2,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          },
+          {
+            "committee_id": "C00919084",
+            "candidate_name": "TALARICO, JAMES",
+            "month": "202607",
+            "states": [
+              "FL",
+              "MI"
+            ],
+            "transactions": [
+              9366,
+              4236
+            ],
+            "proxy_keys": [
+              7964,
+              3575
+            ],
+            "repeat_keys": [
+              1042,
+              468
+            ],
+            "repeat_pct": [
+              13.083877448518333,
+              13.090909090909092
+            ],
+            "repeat_gap_pp": 0.007031642390759041,
+            "js_bits": 0.0018273071843476188,
+            "amount_rank": 13,
+            "repeat_rank": 1,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          },
+          {
+            "committee_id": "C00902668",
+            "candidate_name": "EL-SAYED, ABDUL",
+            "month": "202607",
+            "states": [
+              "CA",
+              "NY"
+            ],
+            "transactions": [
+              13555,
+              7917
+            ],
+            "proxy_keys": [
+              9946,
+              5878
+            ],
+            "repeat_keys": [
+              1896,
+              1121
+            ],
+            "repeat_pct": [
+              19.062939875326766,
+              19.07111262334127
+            ],
+            "repeat_gap_pp": 0.008172748014506626,
+            "js_bits": 0.002051264391197862,
+            "amount_rank": 1,
+            "repeat_rank": 1,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          },
+          {
+            "committee_id": "C00919084",
+            "candidate_name": "TALARICO, JAMES",
+            "month": "202608",
+            "states": [
+              "CT",
+              "NC"
+            ],
+            "transactions": [
+              3607,
+              6701
+            ],
+            "proxy_keys": [
+              2950,
+              5550
+            ],
+            "repeat_keys": [
+              438,
+              825
+            ],
+            "repeat_pct": [
+              14.847457627118644,
+              14.864864864864865
+            ],
+            "repeat_gap_pp": 0.017407237746222548,
+            "js_bits": 0.002553619286508276,
+            "amount_rank": 61,
+            "repeat_rank": 4,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          },
+          {
+            "committee_id": "C00902668",
+            "candidate_name": "EL-SAYED, ABDUL",
+            "month": "202608",
+            "states": [
+              "NJ",
+              "NY"
+            ],
+            "transactions": [
+              4331,
+              11737
+            ],
+            "proxy_keys": [
+              3537,
+              9652
+            ],
+            "repeat_keys": [
+              492,
+              1341
+            ],
+            "repeat_pct": [
+              13.910093299406277,
+              13.893493576460838
+            ],
+            "repeat_gap_pp": 0.0165997229454401,
+            "js_bits": 0.002016903244644935,
+            "amount_rank": 6,
+            "repeat_rank": 1,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          }
+        ],
+        "candidate_months_with_joint_hits": 6,
+        "amount_only_count": 342,
+        "repeat_only_count": 14
+      },
+      "ossoff_other_months/all_states": {
+        "pair_observations": 610,
+        "candidate_months_with_pairs": 5,
+        "joint_count": 4,
+        "joint_hits": [
+          {
+            "committee_id": "C00718866",
+            "candidate_name": "OSSOFF, T. JONATHAN",
+            "month": "202603",
+            "states": [
+              "CA",
+              "WA"
+            ],
+            "transactions": [
+              21126,
+              5027
+            ],
+            "proxy_keys": [
+              17367,
+              4119
+            ],
+            "repeat_keys": [
+              2649,
+              628
+            ],
+            "repeat_pct": [
+              15.253066159958543,
+              15.246419033746054
+            ],
+            "repeat_gap_pp": 0.0066471262124861985,
+            "js_bits": 0.0017433906788467803,
+            "amount_rank": 3,
+            "repeat_rank": 1,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          },
+          {
+            "committee_id": "C00718866",
+            "candidate_name": "OSSOFF, T. JONATHAN",
+            "month": "202608",
+            "states": [
+              "CA",
+              "CT"
+            ],
+            "transactions": [
+              37851,
+              3781
+            ],
+            "proxy_keys": [
+              30812,
+              3051
+            ],
+            "repeat_keys": [
+              4708,
+              466
+            ],
+            "repeat_pct": [
+              15.279761132026483,
+              15.273680760406425
+            ],
+            "repeat_gap_pp": 0.006080371620059699,
+            "js_bits": 0.0022360526026216406,
+            "amount_rank": 29,
+            "repeat_rank": 2,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          },
+          {
+            "committee_id": "C00718866",
+            "candidate_name": "OSSOFF, T. JONATHAN",
+            "month": "202608",
+            "states": [
+              "MN",
+              "PA"
+            ],
+            "transactions": [
+              3344,
+              7123
+            ],
+            "proxy_keys": [
+              2781,
+              5913
+            ],
+            "repeat_keys": [
+              386,
+              821
+            ],
+            "repeat_pct": [
+              13.879899316792521,
+              13.884660916624387
+            ],
+            "repeat_gap_pp": 0.004761599831865082,
+            "js_bits": 0.0023028116376757756,
+            "amount_rank": 31,
+            "repeat_rank": 1,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          },
+          {
+            "committee_id": "C00718866",
+            "candidate_name": "OSSOFF, T. JONATHAN",
+            "month": "202608",
+            "states": [
+              "NC",
+              "WA"
+            ],
+            "transactions": [
+              6431,
+              8978
+            ],
+            "proxy_keys": [
+              5307,
+              7376
+            ],
+            "repeat_keys": [
+              788,
+              1096
+            ],
+            "repeat_pct": [
+              14.848313548143961,
+              14.859002169197398
+            ],
+            "repeat_gap_pp": 0.01068862105343682,
+            "js_bits": 0.0014010167668505836,
+            "amount_rank": 4,
+            "repeat_rank": 3,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          }
+        ],
+        "candidate_months_with_joint_hits": 2,
+        "amount_only_count": 191,
+        "repeat_only_count": 7
+      },
+      "ossoff_other_months/excluding_candidate_home_state": {
+        "pair_observations": 541,
+        "candidate_months_with_pairs": 5,
+        "joint_count": 4,
+        "joint_hits": [
+          {
+            "committee_id": "C00718866",
+            "candidate_name": "OSSOFF, T. JONATHAN",
+            "month": "202603",
+            "states": [
+              "CA",
+              "WA"
+            ],
+            "transactions": [
+              21126,
+              5027
+            ],
+            "proxy_keys": [
+              17367,
+              4119
+            ],
+            "repeat_keys": [
+              2649,
+              628
+            ],
+            "repeat_pct": [
+              15.253066159958543,
+              15.246419033746054
+            ],
+            "repeat_gap_pp": 0.0066471262124861985,
+            "js_bits": 0.0017433906788467803,
+            "amount_rank": 3,
+            "repeat_rank": 1,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          },
+          {
+            "committee_id": "C00718866",
+            "candidate_name": "OSSOFF, T. JONATHAN",
+            "month": "202608",
+            "states": [
+              "CA",
+              "CT"
+            ],
+            "transactions": [
+              37851,
+              3781
+            ],
+            "proxy_keys": [
+              30812,
+              3051
+            ],
+            "repeat_keys": [
+              4708,
+              466
+            ],
+            "repeat_pct": [
+              15.279761132026483,
+              15.273680760406425
+            ],
+            "repeat_gap_pp": 0.006080371620059699,
+            "js_bits": 0.0022360526026216406,
+            "amount_rank": 29,
+            "repeat_rank": 2,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          },
+          {
+            "committee_id": "C00718866",
+            "candidate_name": "OSSOFF, T. JONATHAN",
+            "month": "202608",
+            "states": [
+              "MN",
+              "PA"
+            ],
+            "transactions": [
+              3344,
+              7123
+            ],
+            "proxy_keys": [
+              2781,
+              5913
+            ],
+            "repeat_keys": [
+              386,
+              821
+            ],
+            "repeat_pct": [
+              13.879899316792521,
+              13.884660916624387
+            ],
+            "repeat_gap_pp": 0.004761599831865082,
+            "js_bits": 0.0023028116376757756,
+            "amount_rank": 31,
+            "repeat_rank": 1,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          },
+          {
+            "committee_id": "C00718866",
+            "candidate_name": "OSSOFF, T. JONATHAN",
+            "month": "202608",
+            "states": [
+              "NC",
+              "WA"
+            ],
+            "transactions": [
+              6431,
+              8978
+            ],
+            "proxy_keys": [
+              5307,
+              7376
+            ],
+            "repeat_keys": [
+              788,
+              1096
+            ],
+            "repeat_pct": [
+              14.848313548143961,
+              14.859002169197398
+            ],
+            "repeat_gap_pp": 0.01068862105343682,
+            "js_bits": 0.0014010167668505836,
+            "amount_rank": 4,
+            "repeat_rank": 3,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          }
+        ],
+        "candidate_months_with_joint_hits": 2,
+        "amount_only_count": 191,
+        "repeat_only_count": 7
+      },
+      "all_excluding_reference_pair/all_states": {
+        "pair_observations": 2115,
+        "candidate_months_with_pairs": 55,
+        "joint_count": 11,
+        "joint_hits": [
+          {
+            "committee_id": "C00718866",
+            "candidate_name": "OSSOFF, T. JONATHAN",
+            "month": "202603",
+            "states": [
+              "CA",
+              "WA"
+            ],
+            "transactions": [
+              21126,
+              5027
+            ],
+            "proxy_keys": [
+              17367,
+              4119
+            ],
+            "repeat_keys": [
+              2649,
+              628
+            ],
+            "repeat_pct": [
+              15.253066159958543,
+              15.246419033746054
+            ],
+            "repeat_gap_pp": 0.0066471262124861985,
+            "js_bits": 0.0017433906788467803,
+            "amount_rank": 3,
+            "repeat_rank": 1,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          },
+          {
+            "committee_id": "C00919084",
+            "candidate_name": "TALARICO, JAMES",
+            "month": "202603",
+            "states": [
+              "CO",
+              "VA"
+            ],
+            "transactions": [
+              4353,
+              3971
+            ],
+            "proxy_keys": [
+              3743,
+              3398
+            ],
+            "repeat_keys": [
+              468,
+              425
+            ],
+            "repeat_pct": [
+              12.503339567192091,
+              12.507357268981753
+            ],
+            "repeat_gap_pp": 0.004017701789660322,
+            "js_bits": 0.0016543988927888312,
+            "amount_rank": 8,
+            "repeat_rank": 2,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          },
+          {
+            "committee_id": "C00919084",
+            "candidate_name": "TALARICO, JAMES",
+            "month": "202603",
+            "states": [
+              "MD",
+              "WA"
+            ],
+            "transactions": [
+              3258,
+              6124
+            ],
+            "proxy_keys": [
+              2748,
+              5162
+            ],
+            "repeat_keys": [
+              388,
+              729
+            ],
+            "repeat_pct": [
+              14.119359534206696,
+              14.122433165439752
+            ],
+            "repeat_gap_pp": 0.003073631233055374,
+            "js_bits": 0.001705143465867917,
+            "amount_rank": 11,
+            "repeat_rank": 1,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          },
+          {
+            "committee_id": "C00919084",
+            "candidate_name": "TALARICO, JAMES",
+            "month": "202605",
+            "states": [
+              "GA",
+              "NJ"
+            ],
+            "transactions": [
+              3956,
+              5501
+            ],
+            "proxy_keys": [
+              3516,
+              4939
+            ],
+            "repeat_keys": [
+              313,
+              439
+            ],
+            "repeat_pct": [
+              8.902161547212742,
+              8.8884389552541
+            ],
+            "repeat_gap_pp": 0.01372259195864256,
+            "js_bits": 0.0024802484539866543,
+            "amount_rank": 66,
+            "repeat_rank": 2,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          },
+          {
+            "committee_id": "C00919084",
+            "candidate_name": "TALARICO, JAMES",
+            "month": "202607",
+            "states": [
+              "FL",
+              "MI"
+            ],
+            "transactions": [
+              9366,
+              4236
+            ],
+            "proxy_keys": [
+              7964,
+              3575
+            ],
+            "repeat_keys": [
+              1042,
+              468
+            ],
+            "repeat_pct": [
+              13.083877448518333,
+              13.090909090909092
+            ],
+            "repeat_gap_pp": 0.007031642390759041,
+            "js_bits": 0.0018273071843476188,
+            "amount_rank": 13,
+            "repeat_rank": 1,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          },
+          {
+            "committee_id": "C00902668",
+            "candidate_name": "EL-SAYED, ABDUL",
+            "month": "202607",
+            "states": [
+              "CA",
+              "NY"
+            ],
+            "transactions": [
+              13555,
+              7917
+            ],
+            "proxy_keys": [
+              9946,
+              5878
+            ],
+            "repeat_keys": [
+              1896,
+              1121
+            ],
+            "repeat_pct": [
+              19.062939875326766,
+              19.07111262334127
+            ],
+            "repeat_gap_pp": 0.008172748014506626,
+            "js_bits": 0.002051264391197862,
+            "amount_rank": 1,
+            "repeat_rank": 1,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          },
+          {
+            "committee_id": "C00718866",
+            "candidate_name": "OSSOFF, T. JONATHAN",
+            "month": "202608",
+            "states": [
+              "CA",
+              "CT"
+            ],
+            "transactions": [
+              37851,
+              3781
+            ],
+            "proxy_keys": [
+              30812,
+              3051
+            ],
+            "repeat_keys": [
+              4708,
+              466
+            ],
+            "repeat_pct": [
+              15.279761132026483,
+              15.273680760406425
+            ],
+            "repeat_gap_pp": 0.006080371620059699,
+            "js_bits": 0.0022360526026216406,
+            "amount_rank": 29,
+            "repeat_rank": 2,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          },
+          {
+            "committee_id": "C00718866",
+            "candidate_name": "OSSOFF, T. JONATHAN",
+            "month": "202608",
+            "states": [
+              "MN",
+              "PA"
+            ],
+            "transactions": [
+              3344,
+              7123
+            ],
+            "proxy_keys": [
+              2781,
+              5913
+            ],
+            "repeat_keys": [
+              386,
+              821
+            ],
+            "repeat_pct": [
+              13.879899316792521,
+              13.884660916624387
+            ],
+            "repeat_gap_pp": 0.004761599831865082,
+            "js_bits": 0.0023028116376757756,
+            "amount_rank": 31,
+            "repeat_rank": 1,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          },
+          {
+            "committee_id": "C00718866",
+            "candidate_name": "OSSOFF, T. JONATHAN",
+            "month": "202608",
+            "states": [
+              "NC",
+              "WA"
+            ],
+            "transactions": [
+              6431,
+              8978
+            ],
+            "proxy_keys": [
+              5307,
+              7376
+            ],
+            "repeat_keys": [
+              788,
+              1096
+            ],
+            "repeat_pct": [
+              14.848313548143961,
+              14.859002169197398
+            ],
+            "repeat_gap_pp": 0.01068862105343682,
+            "js_bits": 0.0014010167668505836,
+            "amount_rank": 4,
+            "repeat_rank": 3,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          },
+          {
+            "committee_id": "C00919084",
+            "candidate_name": "TALARICO, JAMES",
+            "month": "202608",
+            "states": [
+              "CT",
+              "NC"
+            ],
+            "transactions": [
+              3607,
+              6701
+            ],
+            "proxy_keys": [
+              2950,
+              5550
+            ],
+            "repeat_keys": [
+              438,
+              825
+            ],
+            "repeat_pct": [
+              14.847457627118644,
+              14.864864864864865
+            ],
+            "repeat_gap_pp": 0.017407237746222548,
+            "js_bits": 0.002553619286508276,
+            "amount_rank": 61,
+            "repeat_rank": 4,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          },
+          {
+            "committee_id": "C00902668",
+            "candidate_name": "EL-SAYED, ABDUL",
+            "month": "202608",
+            "states": [
+              "NJ",
+              "NY"
+            ],
+            "transactions": [
+              4331,
+              11737
+            ],
+            "proxy_keys": [
+              3537,
+              9652
+            ],
+            "repeat_keys": [
+              492,
+              1341
+            ],
+            "repeat_pct": [
+              13.910093299406277,
+              13.893493576460838
+            ],
+            "repeat_gap_pp": 0.0165997229454401,
+            "js_bits": 0.002016903244644935,
+            "amount_rank": 6,
+            "repeat_rank": 1,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          }
+        ],
+        "candidate_months_with_joint_hits": 8,
+        "amount_only_count": 585,
+        "repeat_only_count": 27
+      },
+      "all_excluding_reference_pair/excluding_candidate_home_state": {
+        "pair_observations": 1820,
+        "candidate_months_with_pairs": 36,
+        "joint_count": 11,
+        "joint_hits": [
+          {
+            "committee_id": "C00718866",
+            "candidate_name": "OSSOFF, T. JONATHAN",
+            "month": "202603",
+            "states": [
+              "CA",
+              "WA"
+            ],
+            "transactions": [
+              21126,
+              5027
+            ],
+            "proxy_keys": [
+              17367,
+              4119
+            ],
+            "repeat_keys": [
+              2649,
+              628
+            ],
+            "repeat_pct": [
+              15.253066159958543,
+              15.246419033746054
+            ],
+            "repeat_gap_pp": 0.0066471262124861985,
+            "js_bits": 0.0017433906788467803,
+            "amount_rank": 3,
+            "repeat_rank": 1,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          },
+          {
+            "committee_id": "C00919084",
+            "candidate_name": "TALARICO, JAMES",
+            "month": "202603",
+            "states": [
+              "CO",
+              "VA"
+            ],
+            "transactions": [
+              4353,
+              3971
+            ],
+            "proxy_keys": [
+              3743,
+              3398
+            ],
+            "repeat_keys": [
+              468,
+              425
+            ],
+            "repeat_pct": [
+              12.503339567192091,
+              12.507357268981753
+            ],
+            "repeat_gap_pp": 0.004017701789660322,
+            "js_bits": 0.0016543988927888312,
+            "amount_rank": 8,
+            "repeat_rank": 2,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          },
+          {
+            "committee_id": "C00919084",
+            "candidate_name": "TALARICO, JAMES",
+            "month": "202603",
+            "states": [
+              "MD",
+              "WA"
+            ],
+            "transactions": [
+              3258,
+              6124
+            ],
+            "proxy_keys": [
+              2748,
+              5162
+            ],
+            "repeat_keys": [
+              388,
+              729
+            ],
+            "repeat_pct": [
+              14.119359534206696,
+              14.122433165439752
+            ],
+            "repeat_gap_pp": 0.003073631233055374,
+            "js_bits": 0.001705143465867917,
+            "amount_rank": 11,
+            "repeat_rank": 1,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          },
+          {
+            "committee_id": "C00919084",
+            "candidate_name": "TALARICO, JAMES",
+            "month": "202605",
+            "states": [
+              "GA",
+              "NJ"
+            ],
+            "transactions": [
+              3956,
+              5501
+            ],
+            "proxy_keys": [
+              3516,
+              4939
+            ],
+            "repeat_keys": [
+              313,
+              439
+            ],
+            "repeat_pct": [
+              8.902161547212742,
+              8.8884389552541
+            ],
+            "repeat_gap_pp": 0.01372259195864256,
+            "js_bits": 0.0024802484539866543,
+            "amount_rank": 66,
+            "repeat_rank": 2,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          },
+          {
+            "committee_id": "C00919084",
+            "candidate_name": "TALARICO, JAMES",
+            "month": "202607",
+            "states": [
+              "FL",
+              "MI"
+            ],
+            "transactions": [
+              9366,
+              4236
+            ],
+            "proxy_keys": [
+              7964,
+              3575
+            ],
+            "repeat_keys": [
+              1042,
+              468
+            ],
+            "repeat_pct": [
+              13.083877448518333,
+              13.090909090909092
+            ],
+            "repeat_gap_pp": 0.007031642390759041,
+            "js_bits": 0.0018273071843476188,
+            "amount_rank": 13,
+            "repeat_rank": 1,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          },
+          {
+            "committee_id": "C00902668",
+            "candidate_name": "EL-SAYED, ABDUL",
+            "month": "202607",
+            "states": [
+              "CA",
+              "NY"
+            ],
+            "transactions": [
+              13555,
+              7917
+            ],
+            "proxy_keys": [
+              9946,
+              5878
+            ],
+            "repeat_keys": [
+              1896,
+              1121
+            ],
+            "repeat_pct": [
+              19.062939875326766,
+              19.07111262334127
+            ],
+            "repeat_gap_pp": 0.008172748014506626,
+            "js_bits": 0.002051264391197862,
+            "amount_rank": 1,
+            "repeat_rank": 1,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          },
+          {
+            "committee_id": "C00718866",
+            "candidate_name": "OSSOFF, T. JONATHAN",
+            "month": "202608",
+            "states": [
+              "CA",
+              "CT"
+            ],
+            "transactions": [
+              37851,
+              3781
+            ],
+            "proxy_keys": [
+              30812,
+              3051
+            ],
+            "repeat_keys": [
+              4708,
+              466
+            ],
+            "repeat_pct": [
+              15.279761132026483,
+              15.273680760406425
+            ],
+            "repeat_gap_pp": 0.006080371620059699,
+            "js_bits": 0.0022360526026216406,
+            "amount_rank": 29,
+            "repeat_rank": 2,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          },
+          {
+            "committee_id": "C00718866",
+            "candidate_name": "OSSOFF, T. JONATHAN",
+            "month": "202608",
+            "states": [
+              "MN",
+              "PA"
+            ],
+            "transactions": [
+              3344,
+              7123
+            ],
+            "proxy_keys": [
+              2781,
+              5913
+            ],
+            "repeat_keys": [
+              386,
+              821
+            ],
+            "repeat_pct": [
+              13.879899316792521,
+              13.884660916624387
+            ],
+            "repeat_gap_pp": 0.004761599831865082,
+            "js_bits": 0.0023028116376757756,
+            "amount_rank": 31,
+            "repeat_rank": 1,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          },
+          {
+            "committee_id": "C00718866",
+            "candidate_name": "OSSOFF, T. JONATHAN",
+            "month": "202608",
+            "states": [
+              "NC",
+              "WA"
+            ],
+            "transactions": [
+              6431,
+              8978
+            ],
+            "proxy_keys": [
+              5307,
+              7376
+            ],
+            "repeat_keys": [
+              788,
+              1096
+            ],
+            "repeat_pct": [
+              14.848313548143961,
+              14.859002169197398
+            ],
+            "repeat_gap_pp": 0.01068862105343682,
+            "js_bits": 0.0014010167668505836,
+            "amount_rank": 4,
+            "repeat_rank": 3,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          },
+          {
+            "committee_id": "C00919084",
+            "candidate_name": "TALARICO, JAMES",
+            "month": "202608",
+            "states": [
+              "CT",
+              "NC"
+            ],
+            "transactions": [
+              3607,
+              6701
+            ],
+            "proxy_keys": [
+              2950,
+              5550
+            ],
+            "repeat_keys": [
+              438,
+              825
+            ],
+            "repeat_pct": [
+              14.847457627118644,
+              14.864864864864865
+            ],
+            "repeat_gap_pp": 0.017407237746222548,
+            "js_bits": 0.002553619286508276,
+            "amount_rank": 61,
+            "repeat_rank": 4,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          },
+          {
+            "committee_id": "C00902668",
+            "candidate_name": "EL-SAYED, ABDUL",
+            "month": "202608",
+            "states": [
+              "NJ",
+              "NY"
+            ],
+            "transactions": [
+              4331,
+              11737
+            ],
+            "proxy_keys": [
+              3537,
+              9652
+            ],
+            "repeat_keys": [
+              492,
+              1341
+            ],
+            "repeat_pct": [
+              13.910093299406277,
+              13.893493576460838
+            ],
+            "repeat_gap_pp": 0.0165997229454401,
+            "js_bits": 0.002016903244644935,
+            "amount_rank": 6,
+            "repeat_rank": 1,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          }
+        ],
+        "candidate_months_with_joint_hits": 8,
+        "amount_only_count": 583,
+        "repeat_only_count": 24
+      }
+    },
+    "single_transaction_le200/fixed_common20": {
+      "other_candidates/all_states": {
+        "pair_observations": 1268,
+        "candidate_months_with_pairs": 49,
+        "joint_count": 0,
+        "joint_hits": [],
+        "candidate_months_with_joint_hits": 0,
+        "amount_only_count": 20,
+        "repeat_only_count": 12
+      },
+      "other_candidates/excluding_candidate_home_state": {
+        "pair_observations": 1066,
+        "candidate_months_with_pairs": 30,
+        "joint_count": 0,
+        "joint_hits": [],
+        "candidate_months_with_joint_hits": 0,
+        "amount_only_count": 20,
+        "repeat_only_count": 11
+      },
+      "ossoff_other_months/all_states": {
+        "pair_observations": 601,
+        "candidate_months_with_pairs": 5,
+        "joint_count": 0,
+        "joint_hits": [],
+        "candidate_months_with_joint_hits": 0,
+        "amount_only_count": 17,
+        "repeat_only_count": 5
+      },
+      "ossoff_other_months/excluding_candidate_home_state": {
+        "pair_observations": 533,
+        "candidate_months_with_pairs": 5,
+        "joint_count": 0,
+        "joint_hits": [],
+        "candidate_months_with_joint_hits": 0,
+        "amount_only_count": 17,
+        "repeat_only_count": 4
+      },
+      "all_excluding_reference_pair/all_states": {
+        "pair_observations": 2058,
+        "candidate_months_with_pairs": 55,
+        "joint_count": 1,
+        "joint_hits": [
+          {
+            "committee_id": "C00718866",
+            "candidate_name": "OSSOFF, T. JONATHAN",
+            "month": "202606",
+            "states": [
+              "NY",
+              "VA"
+            ],
+            "transactions": [
+              17372,
+              6298
+            ],
+            "proxy_keys": [
+              14254,
+              5145
+            ],
+            "repeat_keys": [
+              2251,
+              812
+            ],
+            "repeat_pct": [
+              15.792058369580468,
+              15.782312925170068
+            ],
+            "repeat_gap_pp": 0.009745444410402815,
+            "js_bits": 0.0008698573615467752,
+            "amount_rank": 5,
+            "repeat_rank": 2,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          }
+        ],
+        "candidate_months_with_joint_hits": 1,
+        "amount_only_count": 43,
+        "repeat_only_count": 20
+      },
+      "all_excluding_reference_pair/excluding_candidate_home_state": {
+        "pair_observations": 1769,
+        "candidate_months_with_pairs": 36,
+        "joint_count": 1,
+        "joint_hits": [
+          {
+            "committee_id": "C00718866",
+            "candidate_name": "OSSOFF, T. JONATHAN",
+            "month": "202606",
+            "states": [
+              "NY",
+              "VA"
+            ],
+            "transactions": [
+              17372,
+              6298
+            ],
+            "proxy_keys": [
+              14254,
+              5145
+            ],
+            "repeat_keys": [
+              2251,
+              812
+            ],
+            "repeat_pct": [
+              15.792058369580468,
+              15.782312925170068
+            ],
+            "repeat_gap_pp": 0.009745444410402815,
+            "js_bits": 0.0008698573615467752,
+            "amount_rank": 5,
+            "repeat_rank": 2,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          }
+        ],
+        "candidate_months_with_joint_hits": 1,
+        "amount_only_count": 43,
+        "repeat_only_count": 18
+      }
+    },
+    "single_transaction_le200/fixed_common20_plus18_36": {
+      "other_candidates/all_states": {
+        "pair_observations": 1268,
+        "candidate_months_with_pairs": 49,
+        "joint_count": 4,
+        "joint_hits": [
+          {
+            "committee_id": "C00919084",
+            "candidate_name": "TALARICO, JAMES",
+            "month": "202606",
+            "states": [
+              "IL",
+              "PA"
+            ],
+            "transactions": [
+              5810,
+              4608
+            ],
+            "proxy_keys": [
+              5060,
+              4034
+            ],
+            "repeat_keys": [
+              566,
+              451
+            ],
+            "repeat_pct": [
+              11.185770750988143,
+              11.179970252850769
+            ],
+            "repeat_gap_pp": 0.0058004981373746545,
+            "js_bits": 0.002298222225330325,
+            "amount_rank": 32,
+            "repeat_rank": 1,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          },
+          {
+            "committee_id": "C00919084",
+            "candidate_name": "TALARICO, JAMES",
+            "month": "202607",
+            "states": [
+              "FL",
+              "MI"
+            ],
+            "transactions": [
+              9278,
+              4209
+            ],
+            "proxy_keys": [
+              7885,
+              3551
+            ],
+            "repeat_keys": [
+              1035,
+              466
+            ],
+            "repeat_pct": [
+              13.126188966391883,
+              13.123063925654746
+            ],
+            "repeat_gap_pp": 0.0031250407371369304,
+            "js_bits": 0.0016937845687832636,
+            "amount_rank": 14,
+            "repeat_rank": 1,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          },
+          {
+            "committee_id": "C00919084",
+            "candidate_name": "TALARICO, JAMES",
+            "month": "202608",
+            "states": [
+              "IL",
+              "NJ"
+            ],
+            "transactions": [
+              8428,
+              5844
+            ],
+            "proxy_keys": [
+              7055,
+              4893
+            ],
+            "repeat_keys": [
+              960,
+              666
+            ],
+            "repeat_pct": [
+              13.607370659107016,
+              13.611281422440221
+            ],
+            "repeat_gap_pp": 0.003910763333206391,
+            "js_bits": 0.0013546734851790877,
+            "amount_rank": 14,
+            "repeat_rank": 2,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          },
+          {
+            "committee_id": "C00902668",
+            "candidate_name": "EL-SAYED, ABDUL",
+            "month": "202608",
+            "states": [
+              "NJ",
+              "NY"
+            ],
+            "transactions": [
+              4203,
+              11367
+            ],
+            "proxy_keys": [
+              3430,
+              9332
+            ],
+            "repeat_keys": [
+              480,
+              1305
+            ],
+            "repeat_pct": [
+              13.994169096209912,
+              13.984140591513073
+            ],
+            "repeat_gap_pp": 0.01002850469684069,
+            "js_bits": 0.0018815063163407672,
+            "amount_rank": 7,
+            "repeat_rank": 1,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          }
+        ],
+        "candidate_months_with_joint_hits": 4,
+        "amount_only_count": 382,
+        "repeat_only_count": 12
+      },
+      "other_candidates/excluding_candidate_home_state": {
+        "pair_observations": 1066,
+        "candidate_months_with_pairs": 30,
+        "joint_count": 4,
+        "joint_hits": [
+          {
+            "committee_id": "C00919084",
+            "candidate_name": "TALARICO, JAMES",
+            "month": "202606",
+            "states": [
+              "IL",
+              "PA"
+            ],
+            "transactions": [
+              5810,
+              4608
+            ],
+            "proxy_keys": [
+              5060,
+              4034
+            ],
+            "repeat_keys": [
+              566,
+              451
+            ],
+            "repeat_pct": [
+              11.185770750988143,
+              11.179970252850769
+            ],
+            "repeat_gap_pp": 0.0058004981373746545,
+            "js_bits": 0.002298222225330325,
+            "amount_rank": 32,
+            "repeat_rank": 1,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          },
+          {
+            "committee_id": "C00919084",
+            "candidate_name": "TALARICO, JAMES",
+            "month": "202607",
+            "states": [
+              "FL",
+              "MI"
+            ],
+            "transactions": [
+              9278,
+              4209
+            ],
+            "proxy_keys": [
+              7885,
+              3551
+            ],
+            "repeat_keys": [
+              1035,
+              466
+            ],
+            "repeat_pct": [
+              13.126188966391883,
+              13.123063925654746
+            ],
+            "repeat_gap_pp": 0.0031250407371369304,
+            "js_bits": 0.0016937845687832636,
+            "amount_rank": 14,
+            "repeat_rank": 1,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          },
+          {
+            "committee_id": "C00919084",
+            "candidate_name": "TALARICO, JAMES",
+            "month": "202608",
+            "states": [
+              "IL",
+              "NJ"
+            ],
+            "transactions": [
+              8428,
+              5844
+            ],
+            "proxy_keys": [
+              7055,
+              4893
+            ],
+            "repeat_keys": [
+              960,
+              666
+            ],
+            "repeat_pct": [
+              13.607370659107016,
+              13.611281422440221
+            ],
+            "repeat_gap_pp": 0.003910763333206391,
+            "js_bits": 0.0013546734851790877,
+            "amount_rank": 14,
+            "repeat_rank": 2,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          },
+          {
+            "committee_id": "C00902668",
+            "candidate_name": "EL-SAYED, ABDUL",
+            "month": "202608",
+            "states": [
+              "NJ",
+              "NY"
+            ],
+            "transactions": [
+              4203,
+              11367
+            ],
+            "proxy_keys": [
+              3430,
+              9332
+            ],
+            "repeat_keys": [
+              480,
+              1305
+            ],
+            "repeat_pct": [
+              13.994169096209912,
+              13.984140591513073
+            ],
+            "repeat_gap_pp": 0.01002850469684069,
+            "js_bits": 0.0018815063163407672,
+            "amount_rank": 7,
+            "repeat_rank": 1,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          }
+        ],
+        "candidate_months_with_joint_hits": 4,
+        "amount_only_count": 381,
+        "repeat_only_count": 11
+      },
+      "ossoff_other_months/all_states": {
+        "pair_observations": 601,
+        "candidate_months_with_pairs": 5,
+        "joint_count": 2,
+        "joint_hits": [
+          {
+            "committee_id": "C00718866",
+            "candidate_name": "OSSOFF, T. JONATHAN",
+            "month": "202607",
+            "states": [
+              "CO",
+              "WA"
+            ],
+            "transactions": [
+              5808,
+              10114
+            ],
+            "proxy_keys": [
+              4930,
+              8552
+            ],
+            "repeat_keys": [
+              659,
+              1142
+            ],
+            "repeat_pct": [
+              13.367139959432048,
+              13.353601496725911
+            ],
+            "repeat_gap_pp": 0.013538462706136345,
+            "js_bits": 0.0017516244927304337,
+            "amount_rank": 34,
+            "repeat_rank": 2,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          },
+          {
+            "committee_id": "C00718866",
+            "candidate_name": "OSSOFF, T. JONATHAN",
+            "month": "202608",
+            "states": [
+              "CO",
+              "PA"
+            ],
+            "transactions": [
+              5486,
+              7029
+            ],
+            "proxy_keys": [
+              4554,
+              5826
+            ],
+            "repeat_keys": [
+              639,
+              817
+            ],
+            "repeat_pct": [
+              14.031620553359684,
+              14.023343631994507
+            ],
+            "repeat_gap_pp": 0.00827692136517455,
+            "js_bits": 0.002299343800642511,
+            "amount_rank": 39,
+            "repeat_rank": 2,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          }
+        ],
+        "candidate_months_with_joint_hits": 2,
+        "amount_only_count": 207,
+        "repeat_only_count": 5
+      },
+      "ossoff_other_months/excluding_candidate_home_state": {
+        "pair_observations": 533,
+        "candidate_months_with_pairs": 5,
+        "joint_count": 2,
+        "joint_hits": [
+          {
+            "committee_id": "C00718866",
+            "candidate_name": "OSSOFF, T. JONATHAN",
+            "month": "202607",
+            "states": [
+              "CO",
+              "WA"
+            ],
+            "transactions": [
+              5808,
+              10114
+            ],
+            "proxy_keys": [
+              4930,
+              8552
+            ],
+            "repeat_keys": [
+              659,
+              1142
+            ],
+            "repeat_pct": [
+              13.367139959432048,
+              13.353601496725911
+            ],
+            "repeat_gap_pp": 0.013538462706136345,
+            "js_bits": 0.0017516244927304337,
+            "amount_rank": 34,
+            "repeat_rank": 2,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          },
+          {
+            "committee_id": "C00718866",
+            "candidate_name": "OSSOFF, T. JONATHAN",
+            "month": "202608",
+            "states": [
+              "CO",
+              "PA"
+            ],
+            "transactions": [
+              5486,
+              7029
+            ],
+            "proxy_keys": [
+              4554,
+              5826
+            ],
+            "repeat_keys": [
+              639,
+              817
+            ],
+            "repeat_pct": [
+              14.031620553359684,
+              14.023343631994507
+            ],
+            "repeat_gap_pp": 0.00827692136517455,
+            "js_bits": 0.002299343800642511,
+            "amount_rank": 39,
+            "repeat_rank": 2,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          }
+        ],
+        "candidate_months_with_joint_hits": 2,
+        "amount_only_count": 207,
+        "repeat_only_count": 4
+      },
+      "all_excluding_reference_pair/all_states": {
+        "pair_observations": 2058,
+        "candidate_months_with_pairs": 55,
+        "joint_count": 7,
+        "joint_hits": [
+          {
+            "committee_id": "C00718866",
+            "candidate_name": "OSSOFF, T. JONATHAN",
+            "month": "202606",
+            "states": [
+              "NY",
+              "VA"
+            ],
+            "transactions": [
+              17372,
+              6298
+            ],
+            "proxy_keys": [
+              14254,
+              5145
+            ],
+            "repeat_keys": [
+              2251,
+              812
+            ],
+            "repeat_pct": [
+              15.792058369580468,
+              15.782312925170068
+            ],
+            "repeat_gap_pp": 0.009745444410402815,
+            "js_bits": 0.0014873119055734975,
+            "amount_rank": 12,
+            "repeat_rank": 2,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          },
+          {
+            "committee_id": "C00919084",
+            "candidate_name": "TALARICO, JAMES",
+            "month": "202606",
+            "states": [
+              "IL",
+              "PA"
+            ],
+            "transactions": [
+              5810,
+              4608
+            ],
+            "proxy_keys": [
+              5060,
+              4034
+            ],
+            "repeat_keys": [
+              566,
+              451
+            ],
+            "repeat_pct": [
+              11.185770750988143,
+              11.179970252850769
+            ],
+            "repeat_gap_pp": 0.0058004981373746545,
+            "js_bits": 0.002298222225330325,
+            "amount_rank": 32,
+            "repeat_rank": 1,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          },
+          {
+            "committee_id": "C00718866",
+            "candidate_name": "OSSOFF, T. JONATHAN",
+            "month": "202607",
+            "states": [
+              "CO",
+              "WA"
+            ],
+            "transactions": [
+              5808,
+              10114
+            ],
+            "proxy_keys": [
+              4930,
+              8552
+            ],
+            "repeat_keys": [
+              659,
+              1142
+            ],
+            "repeat_pct": [
+              13.367139959432048,
+              13.353601496725911
+            ],
+            "repeat_gap_pp": 0.013538462706136345,
+            "js_bits": 0.0017516244927304337,
+            "amount_rank": 34,
+            "repeat_rank": 2,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          },
+          {
+            "committee_id": "C00919084",
+            "candidate_name": "TALARICO, JAMES",
+            "month": "202607",
+            "states": [
+              "FL",
+              "MI"
+            ],
+            "transactions": [
+              9278,
+              4209
+            ],
+            "proxy_keys": [
+              7885,
+              3551
+            ],
+            "repeat_keys": [
+              1035,
+              466
+            ],
+            "repeat_pct": [
+              13.126188966391883,
+              13.123063925654746
+            ],
+            "repeat_gap_pp": 0.0031250407371369304,
+            "js_bits": 0.0016937845687832636,
+            "amount_rank": 14,
+            "repeat_rank": 1,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          },
+          {
+            "committee_id": "C00718866",
+            "candidate_name": "OSSOFF, T. JONATHAN",
+            "month": "202608",
+            "states": [
+              "CO",
+              "PA"
+            ],
+            "transactions": [
+              5486,
+              7029
+            ],
+            "proxy_keys": [
+              4554,
+              5826
+            ],
+            "repeat_keys": [
+              639,
+              817
+            ],
+            "repeat_pct": [
+              14.031620553359684,
+              14.023343631994507
+            ],
+            "repeat_gap_pp": 0.00827692136517455,
+            "js_bits": 0.002299343800642511,
+            "amount_rank": 39,
+            "repeat_rank": 2,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          },
+          {
+            "committee_id": "C00919084",
+            "candidate_name": "TALARICO, JAMES",
+            "month": "202608",
+            "states": [
+              "IL",
+              "NJ"
+            ],
+            "transactions": [
+              8428,
+              5844
+            ],
+            "proxy_keys": [
+              7055,
+              4893
+            ],
+            "repeat_keys": [
+              960,
+              666
+            ],
+            "repeat_pct": [
+              13.607370659107016,
+              13.611281422440221
+            ],
+            "repeat_gap_pp": 0.003910763333206391,
+            "js_bits": 0.0013546734851790877,
+            "amount_rank": 14,
+            "repeat_rank": 2,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          },
+          {
+            "committee_id": "C00902668",
+            "candidate_name": "EL-SAYED, ABDUL",
+            "month": "202608",
+            "states": [
+              "NJ",
+              "NY"
+            ],
+            "transactions": [
+              4203,
+              11367
+            ],
+            "proxy_keys": [
+              3430,
+              9332
+            ],
+            "repeat_keys": [
+              480,
+              1305
+            ],
+            "repeat_pct": [
+              13.994169096209912,
+              13.984140591513073
+            ],
+            "repeat_gap_pp": 0.01002850469684069,
+            "js_bits": 0.0018815063163407672,
+            "amount_rank": 7,
+            "repeat_rank": 1,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          }
+        ],
+        "candidate_months_with_joint_hits": 7,
+        "amount_only_count": 647,
+        "repeat_only_count": 20
+      },
+      "all_excluding_reference_pair/excluding_candidate_home_state": {
+        "pair_observations": 1769,
+        "candidate_months_with_pairs": 36,
+        "joint_count": 7,
+        "joint_hits": [
+          {
+            "committee_id": "C00718866",
+            "candidate_name": "OSSOFF, T. JONATHAN",
+            "month": "202606",
+            "states": [
+              "NY",
+              "VA"
+            ],
+            "transactions": [
+              17372,
+              6298
+            ],
+            "proxy_keys": [
+              14254,
+              5145
+            ],
+            "repeat_keys": [
+              2251,
+              812
+            ],
+            "repeat_pct": [
+              15.792058369580468,
+              15.782312925170068
+            ],
+            "repeat_gap_pp": 0.009745444410402815,
+            "js_bits": 0.0014873119055734975,
+            "amount_rank": 12,
+            "repeat_rank": 2,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          },
+          {
+            "committee_id": "C00919084",
+            "candidate_name": "TALARICO, JAMES",
+            "month": "202606",
+            "states": [
+              "IL",
+              "PA"
+            ],
+            "transactions": [
+              5810,
+              4608
+            ],
+            "proxy_keys": [
+              5060,
+              4034
+            ],
+            "repeat_keys": [
+              566,
+              451
+            ],
+            "repeat_pct": [
+              11.185770750988143,
+              11.179970252850769
+            ],
+            "repeat_gap_pp": 0.0058004981373746545,
+            "js_bits": 0.002298222225330325,
+            "amount_rank": 32,
+            "repeat_rank": 1,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          },
+          {
+            "committee_id": "C00718866",
+            "candidate_name": "OSSOFF, T. JONATHAN",
+            "month": "202607",
+            "states": [
+              "CO",
+              "WA"
+            ],
+            "transactions": [
+              5808,
+              10114
+            ],
+            "proxy_keys": [
+              4930,
+              8552
+            ],
+            "repeat_keys": [
+              659,
+              1142
+            ],
+            "repeat_pct": [
+              13.367139959432048,
+              13.353601496725911
+            ],
+            "repeat_gap_pp": 0.013538462706136345,
+            "js_bits": 0.0017516244927304337,
+            "amount_rank": 34,
+            "repeat_rank": 2,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          },
+          {
+            "committee_id": "C00919084",
+            "candidate_name": "TALARICO, JAMES",
+            "month": "202607",
+            "states": [
+              "FL",
+              "MI"
+            ],
+            "transactions": [
+              9278,
+              4209
+            ],
+            "proxy_keys": [
+              7885,
+              3551
+            ],
+            "repeat_keys": [
+              1035,
+              466
+            ],
+            "repeat_pct": [
+              13.126188966391883,
+              13.123063925654746
+            ],
+            "repeat_gap_pp": 0.0031250407371369304,
+            "js_bits": 0.0016937845687832636,
+            "amount_rank": 14,
+            "repeat_rank": 1,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          },
+          {
+            "committee_id": "C00718866",
+            "candidate_name": "OSSOFF, T. JONATHAN",
+            "month": "202608",
+            "states": [
+              "CO",
+              "PA"
+            ],
+            "transactions": [
+              5486,
+              7029
+            ],
+            "proxy_keys": [
+              4554,
+              5826
+            ],
+            "repeat_keys": [
+              639,
+              817
+            ],
+            "repeat_pct": [
+              14.031620553359684,
+              14.023343631994507
+            ],
+            "repeat_gap_pp": 0.00827692136517455,
+            "js_bits": 0.002299343800642511,
+            "amount_rank": 39,
+            "repeat_rank": 2,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          },
+          {
+            "committee_id": "C00919084",
+            "candidate_name": "TALARICO, JAMES",
+            "month": "202608",
+            "states": [
+              "IL",
+              "NJ"
+            ],
+            "transactions": [
+              8428,
+              5844
+            ],
+            "proxy_keys": [
+              7055,
+              4893
+            ],
+            "repeat_keys": [
+              960,
+              666
+            ],
+            "repeat_pct": [
+              13.607370659107016,
+              13.611281422440221
+            ],
+            "repeat_gap_pp": 0.003910763333206391,
+            "js_bits": 0.0013546734851790877,
+            "amount_rank": 14,
+            "repeat_rank": 2,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          },
+          {
+            "committee_id": "C00902668",
+            "candidate_name": "EL-SAYED, ABDUL",
+            "month": "202608",
+            "states": [
+              "NJ",
+              "NY"
+            ],
+            "transactions": [
+              4203,
+              11367
+            ],
+            "proxy_keys": [
+              3430,
+              9332
+            ],
+            "repeat_keys": [
+              480,
+              1305
+            ],
+            "repeat_pct": [
+              13.994169096209912,
+              13.984140591513073
+            ],
+            "repeat_gap_pp": 0.01002850469684069,
+            "js_bits": 0.0018815063163407672,
+            "amount_rank": 7,
+            "repeat_rank": 1,
+            "amount_at_or_below_reference": true,
+            "repeat_at_or_below_reference": true,
+            "joint_at_or_below_reference": true,
+            "reference_pair": false
+          }
+        ],
+        "candidate_months_with_joint_hits": 7,
+        "amount_only_count": 645,
+        "repeat_only_count": 18
+      }
+    }
+  },
+  "window_references": {
+    "all_positive/original_june20": {
+      "states": [
+        "TX",
+        "FL"
+      ],
+      "transactions": [
+        9449,
+        13719
+      ],
+      "proxy_keys": [
+        7684,
+        11317
+      ],
+      "repeat_keys": [
+        1206,
+        1774
+      ],
+      "repeat_pct": [
+        15.694950546590317,
+        15.675532384907662
+      ],
+      "signed_repeat_gap_pp": 0.019418161682654977,
+      "repeat_gap_pp": 0.019418161682654977,
+      "js_bits": 0.0008999250036377672
+    },
+    "all_positive/fixed_common20": {
+      "states": [
+        "TX",
+        "FL"
+      ],
+      "transactions": [
+        9449,
+        13719
+      ],
+      "proxy_keys": [
+        7684,
+        11317
+      ],
+      "repeat_keys": [
+        1206,
+        1774
+      ],
+      "repeat_pct": [
+        15.694950546590317,
+        15.675532384907662
+      ],
+      "signed_repeat_gap_pp": 0.019418161682654977,
+      "repeat_gap_pp": 0.019418161682654977,
+      "js_bits": 0.00095920613556492
+    },
+    "all_positive/fixed_common20_plus18_36": {
+      "states": [
+        "TX",
+        "FL"
+      ],
+      "transactions": [
+        9449,
+        13719
+      ],
+      "proxy_keys": [
+        7684,
+        11317
+      ],
+      "repeat_keys": [
+        1206,
+        1774
+      ],
+      "repeat_pct": [
+        15.694950546590317,
+        15.675532384907662
+      ],
+      "signed_repeat_gap_pp": 0.019418161682654977,
+      "repeat_gap_pp": 0.019418161682654977,
+      "js_bits": 0.002818958600680977
+    },
+    "single_transaction_le200/original_june20": {
+      "states": [
+        "TX",
+        "FL"
+      ],
+      "transactions": [
+        9297,
+        13504
+      ],
+      "proxy_keys": [
+        7557,
+        11139
+      ],
+      "repeat_keys": [
+        1185,
+        1745
+      ],
+      "repeat_pct": [
+        15.680825724493847,
+        15.665679145345186
+      ],
+      "signed_repeat_gap_pp": 0.015146579148661576,
+      "repeat_gap_pp": 0.015146579148661576,
+      "js_bits": 0.0008956001017233945
+    },
+    "single_transaction_le200/fixed_common20": {
+      "states": [
+        "TX",
+        "FL"
+      ],
+      "transactions": [
+        9297,
+        13504
+      ],
+      "proxy_keys": [
+        7557,
+        11139
+      ],
+      "repeat_keys": [
+        1185,
+        1745
+      ],
+      "repeat_pct": [
+        15.680825724493847,
+        15.665679145345186
+      ],
+      "signed_repeat_gap_pp": 0.015146579148661576,
+      "repeat_gap_pp": 0.015146579148661576,
+      "js_bits": 0.0009603371223759053
+    },
+    "single_transaction_le200/fixed_common20_plus18_36": {
+      "states": [
+        "TX",
+        "FL"
+      ],
+      "transactions": [
+        9297,
+        13504
+      ],
+      "proxy_keys": [
+        7557,
+        11139
+      ],
+      "repeat_keys": [
+        1185,
+        1745
+      ],
+      "repeat_pct": [
+        15.680825724493847,
+        15.665679145345186
+      ],
+      "signed_repeat_gap_pp": 0.015146579148661576,
+      "repeat_gap_pp": 0.015146579148661576,
+      "js_bits": 0.0028141796484356506
+    }
+  },
+  "menus_cents": {
+    "original_june20": [
+      1000,
+      2500,
+      5000,
+      500,
+      2000,
+      10000,
+      1500,
+      2850,
+      2700,
+      300,
+      3000,
+      25000,
+      400,
+      600,
+      100,
+      50000,
+      20000,
+      200,
+      3500,
+      2026
+    ],
+    "fixed_common20": [
+      1000,
+      500,
+      2500,
+      5000,
+      10000,
+      2000,
+      3000,
+      1500,
+      300,
+      100,
+      2850,
+      3500,
+      2700,
+      200,
+      25000,
+      600,
+      400,
+      50000,
+      20000,
+      700
+    ],
+    "fixed_common20_plus18_36": [
+      1000,
+      500,
+      2500,
+      5000,
+      10000,
+      2000,
+      3000,
+      1500,
+      300,
+      100,
+      2850,
+      3500,
+      2700,
+      200,
+      25000,
+      600,
+      400,
+      50000,
+      20000,
+      700,
+      1800,
+      3600
+    ]
+  },
+  "rolling_summary": {
+    "reference": {
+      "rule": "baseline",
+      "view": "all_positive",
+      "menu": "original_june20",
+      "start_date": "2026-06-01",
+      "end_date": "2026-06-30",
+      "transactions": [
+        9449,
+        13719
+      ],
+      "proxy_keys": [
+        7684,
+        11317
+      ],
+      "repeat_keys": [
+        1206,
+        1774
+      ],
+      "repeat_pct": [
+        15.694950546590318,
+        15.675532384907662
+      ],
+      "signed_repeat_gap_pp": 0.019418161682656532,
+      "repeat_gap_pp": 0.019418161682656532,
+      "js_bits": 0.0008999250036377672,
+      "window_index": 92,
+      "amount_hit": true,
+      "repeat_hit": true,
+      "joint_hit": true,
+      "size_match": true
+    },
+    "window_count": 155,
+    "amount_hit_count": 24,
+    "repeat_hit_count": 2,
+    "joint_hit_count": 2,
+    "joint_hit_windows": [
+      {
+        "rule": "baseline",
+        "view": "all_positive",
+        "menu": "original_june20",
+        "start_date": "2026-03-10",
+        "end_date": "2026-04-08",
+        "transactions": [
+          5022,
+          6244
+        ],
+        "proxy_keys": [
+          4032,
+          5137
+        ],
+        "repeat_keys": [
+          627,
+          799
+        ],
+        "repeat_pct": [
+          15.550595238095237,
+          15.553825189799493
+        ],
+        "signed_repeat_gap_pp": -0.0032299517042559955,
+        "repeat_gap_pp": 0.0032299517042559955,
+        "js_bits": 0.0008415807944894392,
+        "window_index": 9,
+        "amount_hit": true,
+        "repeat_hit": true,
+        "joint_hit": true,
+        "size_match": false
+      },
+      {
+        "rule": "baseline",
+        "view": "all_positive",
+        "menu": "original_june20",
+        "start_date": "2026-06-01",
+        "end_date": "2026-06-30",
+        "transactions": [
+          9449,
+          13719
+        ],
+        "proxy_keys": [
+          7684,
+          11317
+        ],
+        "repeat_keys": [
+          1206,
+          1774
+        ],
+        "repeat_pct": [
+          15.694950546590318,
+          15.675532384907662
+        ],
+        "signed_repeat_gap_pp": 0.019418161682656532,
+        "repeat_gap_pp": 0.019418161682656532,
+        "js_bits": 0.0008999250036377672,
+        "window_index": 92,
+        "amount_hit": true,
+        "repeat_hit": true,
+        "joint_hit": true,
+        "size_match": true
+      }
+    ],
+    "size_matched_window_count": 76,
+    "size_matched_joint_hit_count": 1,
+    "focus_window_count": 15,
+    "focus_joint_hit_count": 1
+  },
+  "adjacent_windows": [
+    {
+      "rule": "baseline",
+      "view": "all_positive",
+      "menu": "original_june20",
+      "start_date": "2026-05-31",
+      "end_date": "2026-06-29",
+      "transactions": [
+        8052,
+        11764
+      ],
+      "proxy_keys": [
+        6572,
+        9769
+      ],
+      "repeat_keys": [
+        1007,
+        1476
+      ],
+      "repeat_pct": [
+        15.32258064516129,
+        15.10901832326748
+      ],
+      "signed_repeat_gap_pp": 0.21356232189381075,
+      "repeat_gap_pp": 0.21356232189381075,
+      "js_bits": 0.0011829801405288647,
+      "window_index": 91,
+      "amount_hit": false,
+      "repeat_hit": false,
+      "joint_hit": false,
+      "size_match": true
+    },
+    {
+      "rule": "baseline",
+      "view": "all_positive",
+      "menu": "original_june20",
+      "start_date": "2026-06-01",
+      "end_date": "2026-06-30",
+      "transactions": [
+        9449,
+        13719
+      ],
+      "proxy_keys": [
+        7684,
+        11317
+      ],
+      "repeat_keys": [
+        1206,
+        1774
+      ],
+      "repeat_pct": [
+        15.694950546590318,
+        15.675532384907662
+      ],
+      "signed_repeat_gap_pp": 0.019418161682656532,
+      "repeat_gap_pp": 0.019418161682656532,
+      "js_bits": 0.0008999250036377672,
+      "window_index": 92,
+      "amount_hit": true,
+      "repeat_hit": true,
+      "joint_hit": true,
+      "size_match": true
+    },
+    {
+      "rule": "baseline",
+      "view": "all_positive",
+      "menu": "original_june20",
+      "start_date": "2026-06-02",
+      "end_date": "2026-07-01",
+      "transactions": [
+        9680,
+        13962
+      ],
+      "proxy_keys": [
+        7881,
+        11553
+      ],
+      "repeat_keys": [
+        1239,
+        1795
+      ],
+      "repeat_pct": [
+        15.721355157974877,
+        15.537089933350645
+      ],
+      "signed_repeat_gap_pp": 0.184265224624232,
+      "repeat_gap_pp": 0.184265224624232,
+      "js_bits": 0.0008306346826854,
+      "window_index": 93,
+      "amount_hit": true,
+      "repeat_hit": false,
+      "joint_hit": false,
+      "size_match": true
+    }
+  ],
+  "june_state_totals": {
+    "TX": {
+      "transactions": 9449,
+      "proxies": 7684,
+      "repeat_proxies": 1206
+    },
+    "FL": {
+      "transactions": 13719,
+      "proxies": 11317,
+      "repeat_proxies": 1774
+    },
+    "VA": {
+      "transactions": 6423,
+      "proxies": 5255,
+      "repeat_proxies": 824
+    }
+  },
+  "june30_month_first_proxies": {
+    "TX": 1250,
+    "FL": 1734,
+    "VA": 924
+  },
+  "june30_prior_single_becomes_repeat": {
+    "TX": 222,
+    "FL": 308,
+    "VA": 148
+  },
+  "exact_amount_transactions": {
+    "TX": {
+      "1800": 7,
+      "3600": 2
+    },
+    "FL": {
+      "1800": 58,
+      "3600": 38
+    }
+  }
+}

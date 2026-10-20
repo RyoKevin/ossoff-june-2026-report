@@ -1,0 +1,31 @@
+{
+  "source": {
+    "file": "ossoff_27_origin_20261017_public_sources.json",
+    "sha256": "ece1c25a5bcf0826263ab063971a6a21cfde8666cf280daefd684888237c513c"
+  },
+  "observed_on": "2026-10-17",
+  "official_email": "https://politicalemails.org/messages/2308805",
+  "quarterly_dates": "https://www.fec.gov/help-candidates-and-committees/dates-and-deadlines/2026-reporting-dates/2026-quarterly-filers/",
+  "june_form": {
+    "email_url": "https://politicalemails.org/messages/2308805",
+    "literal_url": "https://act.electjon.com/go/june",
+    "observed_redirect": "https://secure.actblue.com/donate/ossoff-em-jun26?rd=1&refcode=em260630-1-subs&utm_campaign=em260630-1-subs&utm_medium=email&utm_source=actionkit",
+    "finding": "识别六月表单名称及当前重定向参数；当前页面只展示募款文案与规则，不展示金额选项，不能恢复历史配置。"
+  },
+  "platform_mechanisms": [
+    {
+      "url": "https://help.actblue.com/hc/en-us/articles/16870088151191-preset-donation-amounts",
+      "observation": "官方支持任意预设金额和基于历史的个性化首个金额；这是可能的机制，未证明奥索夫在六月使用了27美元配置。"
+    },
+    {
+      "url": "https://www.actblue.com/posts/smart-boost-data-driven-upsell/",
+      "observation": "官方说明支持捐后加额请求；未识别本次使用情况，不能直接归因。"
+    },
+    {
+      "url": "https://help.actblue.com/hc/en-us/articles/16870105529367-Smart-Boost",
+      "observation": "官方说明首次金额包含原捐款与加额，后续周期仍保留原金额；后台导出含Smart Boost amount字段。本地FEC原始记录无此字段。",
+      "official_example_image": "https://www.actblue.com/wp-content/uploads/2024/03/SmartBoostExample.png",
+      "image_observation": "官方公开示例为原捐10美元，再选择加10、3或5美元；没有披露27美元所对应的原金额算法。"
+    }
+  ]
+}

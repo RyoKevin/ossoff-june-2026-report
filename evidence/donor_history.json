@@ -1,0 +1,692 @@
+{
+  "source": {
+    "file": "ossoff_27_origin_20261017_results.json",
+    "sha256": "a809a682f5848009caba7eb7c3131a66f34d88bcd282f63504f2c54e75f59145"
+  },
+  "scope": "全国50州及DC；正额个人交易；原始ActBlue申报；历史窗口2026年3月至目标日期之前，后续为7月。",
+  "selection": "六月29—30日所有奥索夫捐款人，加六月1—28日27美元捐款人；金额对照固定为5、10、25、27、28.50、50、100美元。",
+  "late_27": {
+    "baseline": {
+      "counts": {
+        "keys": 3296,
+        "transactions": 3311,
+        "previous_ossoff_any": 1200,
+        "previous_ossoff_27": 94,
+        "previous_other_any": 1999,
+        "previous_other_27": 183,
+        "previous_any_recipient_27": 253,
+        "no_previous_identified_earmark": 1084,
+        "first_ossoff_in_june_on_target_day": 2560,
+        "no_ossoff_march_may_or_earlier_june": 2096,
+        "same_day_any_other_record": 1620,
+        "same_day_other_identified_earmark": 769,
+        "same_day_direct_actblue": 1247,
+        "same_day_three_dollar_any": 369,
+        "same_day_three_dollar_other_earmark": 18,
+        "same_day_equal_amount_any": 85,
+        "july_ossoff_any": 981,
+        "july_ossoff_27": 132,
+        "july_same_amount_day_plusminus2": 69
+      },
+      "exclusive_history_categories": {
+        "no_prior_identified_earmark": 1084,
+        "prior_other_27_only": 159,
+        "prior_other_only_other_amount": 958,
+        "prior_ossoff_other_amount": 1001,
+        "prior_ossoff_27": 94
+      },
+      "top_prior_other": [
+        {
+          "committee": "C00919084",
+          "keys": 640
+        },
+        {
+          "committee": "C00042366",
+          "keys": 425
+        },
+        {
+          "committee": "C00000935",
+          "keys": 350
+        },
+        {
+          "committee": "C00916288",
+          "keys": 341
+        },
+        {
+          "committee": "C00937573",
+          "keys": 337
+        },
+        {
+          "committee": "C00936559",
+          "keys": 336
+        },
+        {
+          "committee": "C00696526",
+          "keys": 287
+        },
+        {
+          "committee": "C00639591",
+          "keys": 286
+        },
+        {
+          "committee": "C00905406",
+          "keys": 280
+        },
+        {
+          "committee": "C00916437",
+          "keys": 263
+        },
+        {
+          "committee": "C00913574",
+          "keys": 262
+        },
+        {
+          "committee": "C00010603",
+          "keys": 261
+        },
+        {
+          "committee": "C00906024",
+          "keys": 235
+        },
+        {
+          "committee": "C00856955",
+          "keys": 234
+        },
+        {
+          "committee": "C00931527",
+          "keys": 216
+        }
+      ],
+      "top_prior_other_27": [
+        {
+          "committee": "C00495028",
+          "keys": 45
+        },
+        {
+          "committee": "C00786822",
+          "keys": 34
+        },
+        {
+          "committee": "C00503052",
+          "keys": 23
+        },
+        {
+          "committee": "C00411330",
+          "keys": 16
+        },
+        {
+          "committee": "C00000935",
+          "keys": 15
+        },
+        {
+          "committee": "C00639591",
+          "keys": 9
+        },
+        {
+          "committee": "C00919084",
+          "keys": 8
+        },
+        {
+          "committee": "C00513176",
+          "keys": 8
+        },
+        {
+          "committee": "C00344234",
+          "keys": 8
+        },
+        {
+          "committee": "C00833103",
+          "keys": 7
+        },
+        {
+          "committee": "C00936559",
+          "keys": 6
+        },
+        {
+          "committee": "C00905075",
+          "keys": 6
+        },
+        {
+          "committee": "C00911966",
+          "keys": 5
+        },
+        {
+          "committee": "C00696526",
+          "keys": 5
+        },
+        {
+          "committee": "C00605592",
+          "keys": 5
+        }
+      ],
+      "top_same_day_partners": [
+        {
+          "committee": "C00401224",
+          "keys": 1247
+        },
+        {
+          "committee": "C00919084",
+          "keys": 186
+        },
+        {
+          "committee": "C00916288",
+          "keys": 86
+        },
+        {
+          "committee": "C00696526",
+          "keys": 78
+        },
+        {
+          "committee": "C00000935",
+          "keys": 77
+        },
+        {
+          "committee": "C00933978",
+          "keys": 75
+        },
+        {
+          "committee": "C00856955",
+          "keys": 69
+        },
+        {
+          "committee": "C00639591",
+          "keys": 56
+        },
+        {
+          "committee": "C00913574",
+          "keys": 53
+        },
+        {
+          "committee": "C00936559",
+          "keys": 49
+        },
+        {
+          "committee": "C00042366",
+          "keys": 43
+        },
+        {
+          "committee": "C00916437",
+          "keys": 37
+        },
+        {
+          "committee": "C00906024",
+          "keys": 28
+        },
+        {
+          "committee": "C00797795",
+          "keys": 23
+        },
+        {
+          "committee": "C00562983",
+          "keys": 21
+        }
+      ],
+      "top_same_day_partner_amounts": [
+        {
+          "committee": "C00401224",
+          "cents": 400,
+          "keys": 833
+        },
+        {
+          "committee": "C00401224",
+          "cents": 300,
+          "keys": 357
+        },
+        {
+          "committee": "C00401224",
+          "cents": 200,
+          "keys": 130
+        },
+        {
+          "committee": "C00919084",
+          "cents": 2500,
+          "keys": 83
+        },
+        {
+          "committee": "C00401224",
+          "cents": 100,
+          "keys": 65
+        },
+        {
+          "committee": "C00401224",
+          "cents": 500,
+          "keys": 46
+        },
+        {
+          "committee": "C00916288",
+          "cents": 2500,
+          "keys": 39
+        },
+        {
+          "committee": "C00856955",
+          "cents": 2500,
+          "keys": 33
+        },
+        {
+          "committee": "C00933978",
+          "cents": 2500,
+          "keys": 32
+        },
+        {
+          "committee": "C00919084",
+          "cents": 1000,
+          "keys": 31
+        },
+        {
+          "committee": "C00000935",
+          "cents": 1500,
+          "keys": 30
+        },
+        {
+          "committee": "C00913574",
+          "cents": 2500,
+          "keys": 28
+        },
+        {
+          "committee": "C00042366",
+          "cents": 3000,
+          "keys": 22
+        },
+        {
+          "committee": "C00933978",
+          "cents": 1000,
+          "keys": 20
+        },
+        {
+          "committee": "C00401224",
+          "cents": 250,
+          "keys": 19
+        },
+        {
+          "committee": "C00936559",
+          "cents": 2500,
+          "keys": 18
+        },
+        {
+          "committee": "C00919084",
+          "cents": 5000,
+          "keys": 18
+        },
+        {
+          "committee": "C00639591",
+          "cents": 2500,
+          "keys": 18
+        },
+        {
+          "committee": "C00916288",
+          "cents": 1500,
+          "keys": 17
+        },
+        {
+          "committee": "C00696526",
+          "cents": 1000,
+          "keys": 17
+        }
+      ],
+      "top_target_amount_bundles": [
+        {
+          "amounts_cents": [
+            2700
+          ],
+          "keys": 3282
+        },
+        {
+          "amounts_cents": [
+            2700,
+            2700
+          ],
+          "keys": 13
+        },
+        {
+          "amounts_cents": [
+            2700,
+            2700,
+            2700
+          ],
+          "keys": 1
+        }
+      ]
+    },
+    "strict_address": {
+      "counts": {
+        "keys": 3296,
+        "transactions": 3311,
+        "previous_ossoff_any": 1190,
+        "previous_ossoff_27": 94,
+        "previous_other_any": 1983,
+        "previous_other_27": 182,
+        "previous_any_recipient_27": 252,
+        "no_previous_identified_earmark": 1099,
+        "first_ossoff_in_june_on_target_day": 2566,
+        "no_ossoff_march_may_or_earlier_june": 2106,
+        "same_day_any_other_record": 1615,
+        "same_day_other_identified_earmark": 762,
+        "same_day_direct_actblue": 1246,
+        "same_day_three_dollar_any": 368,
+        "same_day_three_dollar_other_earmark": 18,
+        "same_day_equal_amount_any": 85,
+        "july_ossoff_any": 974,
+        "july_ossoff_27": 132,
+        "july_same_amount_day_plusminus2": 69
+      },
+      "exclusive_history_categories": {
+        "no_prior_identified_earmark": 1099,
+        "prior_other_27_only": 158,
+        "prior_other_only_other_amount": 953,
+        "prior_ossoff_other_amount": 992,
+        "prior_ossoff_27": 94
+      },
+      "top_prior_other": [
+        {
+          "committee": "C00919084",
+          "keys": 633
+        },
+        {
+          "committee": "C00042366",
+          "keys": 421
+        },
+        {
+          "committee": "C00000935",
+          "keys": 343
+        },
+        {
+          "committee": "C00916288",
+          "keys": 335
+        },
+        {
+          "committee": "C00937573",
+          "keys": 335
+        },
+        {
+          "committee": "C00936559",
+          "keys": 332
+        },
+        {
+          "committee": "C00696526",
+          "keys": 283
+        },
+        {
+          "committee": "C00639591",
+          "keys": 281
+        },
+        {
+          "committee": "C00905406",
+          "keys": 275
+        },
+        {
+          "committee": "C00913574",
+          "keys": 261
+        },
+        {
+          "committee": "C00916437",
+          "keys": 258
+        },
+        {
+          "committee": "C00010603",
+          "keys": 257
+        },
+        {
+          "committee": "C00906024",
+          "keys": 233
+        },
+        {
+          "committee": "C00856955",
+          "keys": 231
+        },
+        {
+          "committee": "C00931527",
+          "keys": 214
+        }
+      ],
+      "top_prior_other_27": [
+        {
+          "committee": "C00495028",
+          "keys": 45
+        },
+        {
+          "committee": "C00786822",
+          "keys": 33
+        },
+        {
+          "committee": "C00503052",
+          "keys": 23
+        },
+        {
+          "committee": "C00411330",
+          "keys": 16
+        },
+        {
+          "committee": "C00000935",
+          "keys": 15
+        },
+        {
+          "committee": "C00639591",
+          "keys": 9
+        },
+        {
+          "committee": "C00919084",
+          "keys": 8
+        },
+        {
+          "committee": "C00513176",
+          "keys": 8
+        },
+        {
+          "committee": "C00344234",
+          "keys": 8
+        },
+        {
+          "committee": "C00833103",
+          "keys": 7
+        },
+        {
+          "committee": "C00936559",
+          "keys": 6
+        },
+        {
+          "committee": "C00905075",
+          "keys": 6
+        },
+        {
+          "committee": "C00911966",
+          "keys": 5
+        },
+        {
+          "committee": "C00696526",
+          "keys": 5
+        },
+        {
+          "committee": "C00605592",
+          "keys": 5
+        }
+      ],
+      "top_same_day_partners": [
+        {
+          "committee": "C00401224",
+          "keys": 1246
+        },
+        {
+          "committee": "C00919084",
+          "keys": 186
+        },
+        {
+          "committee": "C00916288",
+          "keys": 85
+        },
+        {
+          "committee": "C00696526",
+          "keys": 78
+        },
+        {
+          "committee": "C00933978",
+          "keys": 75
+        },
+        {
+          "committee": "C00000935",
+          "keys": 74
+        },
+        {
+          "committee": "C00856955",
+          "keys": 68
+        },
+        {
+          "committee": "C00639591",
+          "keys": 56
+        },
+        {
+          "committee": "C00913574",
+          "keys": 53
+        },
+        {
+          "committee": "C00936559",
+          "keys": 49
+        },
+        {
+          "committee": "C00042366",
+          "keys": 43
+        },
+        {
+          "committee": "C00916437",
+          "keys": 36
+        },
+        {
+          "committee": "C00906024",
+          "keys": 28
+        },
+        {
+          "committee": "C00797795",
+          "keys": 23
+        },
+        {
+          "committee": "C00575126",
+          "keys": 20
+        }
+      ],
+      "top_same_day_partner_amounts": [
+        {
+          "committee": "C00401224",
+          "cents": 400,
+          "keys": 833
+        },
+        {
+          "committee": "C00401224",
+          "cents": 300,
+          "keys": 356
+        },
+        {
+          "committee": "C00401224",
+          "cents": 200,
+          "keys": 130
+        },
+        {
+          "committee": "C00919084",
+          "cents": 2500,
+          "keys": 83
+        },
+        {
+          "committee": "C00401224",
+          "cents": 100,
+          "keys": 65
+        },
+        {
+          "committee": "C00401224",
+          "cents": 500,
+          "keys": 46
+        },
+        {
+          "committee": "C00916288",
+          "cents": 2500,
+          "keys": 39
+        },
+        {
+          "committee": "C00933978",
+          "cents": 2500,
+          "keys": 32
+        },
+        {
+          "committee": "C00856955",
+          "cents": 2500,
+          "keys": 32
+        },
+        {
+          "committee": "C00919084",
+          "cents": 1000,
+          "keys": 31
+        },
+        {
+          "committee": "C00000935",
+          "cents": 1500,
+          "keys": 28
+        },
+        {
+          "committee": "C00913574",
+          "cents": 2500,
+          "keys": 28
+        },
+        {
+          "committee": "C00042366",
+          "cents": 3000,
+          "keys": 22
+        },
+        {
+          "committee": "C00933978",
+          "cents": 1000,
+          "keys": 20
+        },
+        {
+          "committee": "C00401224",
+          "cents": 250,
+          "keys": 19
+        },
+        {
+          "committee": "C00936559",
+          "cents": 2500,
+          "keys": 18
+        },
+        {
+          "committee": "C00919084",
+          "cents": 5000,
+          "keys": 18
+        },
+        {
+          "committee": "C00639591",
+          "cents": 2500,
+          "keys": 18
+        },
+        {
+          "committee": "C00916288",
+          "cents": 1500,
+          "keys": 17
+        },
+        {
+          "committee": "C00696526",
+          "cents": 1000,
+          "keys": 17
+        }
+      ],
+      "top_target_amount_bundles": [
+        {
+          "amounts_cents": [
+            2700
+          ],
+          "keys": 3282
+        },
+        {
+          "amounts_cents": [
+            2700,
+            2700
+          ],
+          "keys": 13
+        },
+        {
+          "amounts_cents": [
+            2700,
+            2700,
+            2700
+          ],
+          "keys": 1
+        }
+      ]
+    }
+  }
+}
