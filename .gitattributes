@@ -1,0 +1,5 @@
+* text=auto eol=lf
+# Preserve exact checksummed bytes, including CRLF in published JSON.
+README.md -text
+evidence/*.json -text
+SHA256SUMS.txt -text
